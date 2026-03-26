@@ -161,7 +161,7 @@ checkout → requires order_key OR logged-in user
 2. Choose the plugin ZIP.
 3. Click **Install Now** and then **Activate**.
 4. Go to **WooCommerce → Settings → Payments → ForgingBlock CommerceFlow**.
-5. Turn it on and paste your ForgingBlock API key.
+5. Turn it on and paste your ForgingBlock API key (**[Dashboard](https://dash.forgingblock.io) → Account Settings → Integrations → API Token**).
 6. Save.
 ---
 
