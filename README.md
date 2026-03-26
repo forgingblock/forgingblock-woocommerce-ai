@@ -155,7 +155,7 @@ checkout → requires order_key OR logged-in user
 
 ## Install guide
 
-### Install from a ZIP file (recommended)
+### Install from a [ZIP file](https://github.com/forgingblock/forgingblock-woocommerce-ai/releases/download/v3.0.3/forgingblock-woocommerce-plugin.zip) (recommended)
 
 1. In WordPress Admin, go to **Plugins → Add New Plugin → Upload Plugin**.
 2. Choose the plugin ZIP.
