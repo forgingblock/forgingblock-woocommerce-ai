@@ -163,6 +163,23 @@ checkout → requires order_key OR logged-in user
 4. Go to **WooCommerce → Settings → Payments → ForgingBlock CommerceFlow**.
 5. Turn it on and paste your ForgingBlock API key (**[Dashboard](https://dash.forgingblock.io) → Account Settings → Integrations → API Token**).
 6. Save.
+7. (Recommended) Configure Callback URL for instant order updates:
+   Copy the Callback URL from plugin settings and paste it into:
+
+   (**[Dashboard](https://dash.forgingblock.io) → Account Settings → Integrations → Callback URL**)
+
+   This ensures real-time payment updates (important for AI agents).
+   
+   ![](https://forgingblock.io/static/img/callback.png?v=1775916690747)
+
+9. (Recommended) Set your Business Name for better checkout experience:
+   Go to:
+
+   (**[Dashboard](https://dash.forgingblock.io) → Account Settings → Business Details**)
+
+   This name is shown in the payment form and used in the "Return to your store" button after checkout.
+
+   ![](https://forgingblock.io/static/img/return-to-store.png?v=1775916690747)
 ---
 
 ## Human checkout flow
