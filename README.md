@@ -164,6 +164,7 @@ checkout → requires order_key OR logged-in user
 5. Turn it on and paste your ForgingBlock API key (**[Dashboard](https://dash.forgingblock.io) → Account Settings → Integrations → API Token**).
 6. Save.
 7. (Recommended) Configure Callback URL for instant order updates:
+
    Copy the Callback URL from plugin settings and paste it into:
 
    (**[Dashboard](https://dash.forgingblock.io) → Account Settings → Integrations → Callback URL**)
@@ -173,6 +174,7 @@ checkout → requires order_key OR logged-in user
    ![](https://forgingblock.io/static/img/callback.png?v=1775916690747)
 
 9. (Recommended) Set your Business Name for better checkout experience:
+
    Go to:
 
    (**[Dashboard](https://dash.forgingblock.io) → Account Settings → Business Details**)
@@ -180,6 +182,28 @@ checkout → requires order_key OR logged-in user
    This name is shown in the payment form and used in the "Return to your store" button after checkout.
 
    ![](https://forgingblock.io/static/img/return-to-store.png?v=1775916690747)
+
+10. (Recommended) Validate Thank You page is configured correctly:
+
+   In WooCommerce, the Thank You page is not a separate page you create manually.
+   It is automatically shown after checkout and is based on your Checkout page.
+
+   To make sure it works correctly:
+
+   Go to:
+
+   **WooCommerce → Settings → Advanced**
+
+   Make sure:
+
+   - ✔ A **Checkout page** is assigned  
+   - ✔ The page exists and is published  
+   - ✔ The page contains the WooCommerce Checkout block or `[woocommerce_checkout]`
+
+   If all three are configured correctly, your Thank You page will function properly.
+
+   For detailed pages setup and customization, see the WooCommerce official guide:  
+   https://woocommerce.com/document/woocommerce-pages/
 ---
 
 ## Human checkout flow
